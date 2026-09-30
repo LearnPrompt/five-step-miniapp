@@ -1,0 +1,9 @@
+{
+  "name": "daily-books-miniapp",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "sync:data": "node scripts/sync-books.cjs",
+    "test": "node --test tests/*.test.cjs"
+  }
+}

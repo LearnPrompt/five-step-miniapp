@@ -1,0 +1,10 @@
+<view class="container">
+  <view wx:if="{{book}}" class="card">
+    <view class="title">{{book.title}}</view>
+    <view class="category">{{book.category}}</view>
+    <view class="description">{{book.description}}</view>
+  </view>
+  <view wx:else class="empty">未找到这本书，请返回书单重新选择。</view>
+  <view class="note source-note">资料来源：原网页本地书单，尚未接入每日更新。</view>
+  <button class="action" bindtap="backToBooks">返回书单</button>
+</view>

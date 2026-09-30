@@ -1,0 +1,11 @@
+{
+  "description": "每日书单原生小程序初版；未绑定 AppID",
+  "miniprogramRoot": "miniprogram/",
+  "compileType": "miniprogram",
+  "appid": "",
+  "projectname": "daily-books",
+  "setting": {
+    "es6": true,
+    "minified": true
+  }
+}

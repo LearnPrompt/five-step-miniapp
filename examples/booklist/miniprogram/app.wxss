@@ -1,0 +1,9 @@
+page { background: #f6f7f9; color: #182333; font-size: 30rpx; }
+.container { padding: 32rpx; padding-bottom: 80rpx; }
+.heading { font-size: 44rpx; font-weight: 700; margin-bottom: 16rpx; }
+.note { color: #687584; font-size: 26rpx; line-height: 1.6; margin-bottom: 32rpx; }
+.card { background: #fff; border-radius: 18rpx; padding: 32rpx; margin-top: 24rpx; }
+.title { font-size: 36rpx; font-weight: 600; line-height: 1.5; overflow-wrap: break-word; }
+.category { color: #687584; font-size: 26rpx; margin: 16rpx 0; }
+.action { background: #225da8; color: #fff; font-size: 30rpx; min-height: 88rpx; line-height: 88rpx; margin-top: 24rpx; }
+.empty { padding: 48rpx 0; color: #687584; line-height: 1.6; }

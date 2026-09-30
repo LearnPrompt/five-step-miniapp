@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="heading">每日书单</view>
+  <view class="note">本地书单 · {{visibleBooks.length}} 本。来源于原网页 books.json，尚未接入每日更新。</view>
+  <picker mode="selector" range="{{categories}}" value="{{selectedIndex}}" bindchange="onCategoryChange">
+    <view class="filter">分类：{{selectedCategory}} <text class="filter-hint">点击切换 ▾</text></view>
+  </picker>
+  <view wx:for="{{visibleBooks}}" wx:key="id" class="card">
+    <view class="title">{{item.title}}</view>
+    <view class="category">{{item.category}}</view>
+    <button class="action" data-id="{{item.id}}" bindtap="openDetail">看详情</button>
+  </view>
+  <view wx:if="{{visibleBooks.length === 0}}" class="empty">该分类暂无书籍，请切换分类。</view>
+</view>

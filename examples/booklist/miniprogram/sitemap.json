@@ -1,0 +1,9 @@
+{
+  "desc": "本地初版，暂不开放搜索索引",
+  "rules": [
+    {
+      "action": "disallow",
+      "page": "*"
+    }
+  ]
+}

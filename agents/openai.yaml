@@ -1,0 +1,4 @@
+interface:
+  display_name: "五步小程序开发法"
+  short_description: "把已有网页源码推进为微信小程序，逐步完成界面、数据、AI、测试与发布验证"
+  default_prompt: "用 $five-step-miniapp 阅读当前项目，把它改成微信小程序；先做出可预览的最小版本，再逐步验证。"

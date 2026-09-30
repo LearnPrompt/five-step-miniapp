@@ -1,0 +1,2 @@
+.filter { background: #fff; border-radius: 14rpx; padding: 24rpx; min-height: 44rpx; line-height: 44rpx; }
+.filter-hint { color: #687584; font-size: 26rpx; margin-left: 20rpx; }
